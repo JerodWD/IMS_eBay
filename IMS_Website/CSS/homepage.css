@@ -1,0 +1,475 @@
+div.header{
+	width: 100%;
+	background: #3333ff;
+	padding: 10px 0px;
+}
+
+div.header a{
+	font-size: 15px;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+div.body{
+	font-family: arial;
+}
+
+/* Main Page Styles*/
+div.banner{
+	background: url('../images/background_test.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 80vh;
+}
+
+div.homepageContainer{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+div.bannerHeader h1{
+	font-size: 100px;
+	color: #4db8ff;
+	margin-bottom: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-align: center;
+}
+
+div.homePageAddButton{
+	text-align: center;
+}
+
+div.homePageAddButton p{
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	color: #4db8ff;
+	margin-bottom: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+div.homePageAddButton a{
+	font-size: 40px;
+	color: #bfbfbf;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	padding-left: 25px;
+}
+
+div.homePageAddButton a:hover{
+	color: #4db8ff;
+	transition: 0.35s all;
+}
+
+div.homePageSearchButton{
+	text-align: center;
+}
+
+div.homePageSearchButton p{
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	color: #4db8ff;
+	margin-bottom: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+div.homePageSearchButton a{
+	font-size: 40px;
+	padding-left: 30px;
+	color: #bfbfbf;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	padding-left: 25px;
+}
+
+div.homePageSearchButton a:hover{
+	color: #4db8ff;
+	transition: 0.35s all;
+}
+
+/* Homepage Features Styles*/
+div.homepageFeatures{
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0px;
+}
+
+div.homepageFeature{
+	padding: 10px 20px;
+	text-align: center;
+	width: 33.33%;
+}
+
+div.homepageFeature:hover{
+	border-top: 2px solid #3333ff;
+	border-bottom: 2px solid #3333ff;
+	transition: 0.1s all;
+}
+
+div.homepageFeature span.featureIcon{
+	height:80px;
+	width: 80px;
+	display: inline-block;
+	font-size: 60px;
+	background: rgb(51,51,255,0.5);
+	color: #ffffff;
+	padding-top: 15px;
+	border-radius: 40%;
+}
+
+div.homepageFeature h3.featureTitle{
+	margin-bottom: 10px;
+	font-size: 23px;
+}
+
+div.homepageFeature p.featureDescription{
+	color: rgb(153, 153, 153);
+	font-size: 18px;
+}
+
+/* Link / Embedded eBay Site Styles*/
+div.homepageEbayLink{
+	display: flex;
+	flex-direction: row;
+	background: #a6a6a6;
+}
+
+div.ebayLink{
+	text-align: left;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+div.ebayLink a{
+	font-size: 20px;
+}
+
+div.ebayLink p{
+	font-size: 20px; 
+	display: inline;
+}
+
+div.ebayEmbedded{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding-right: 200px;
+}
+
+.iframe{
+	width: 100%;
+	height: 100%;
+}
+
+/* Social Links Styles*/
+div.socials{
+	text-align: center;
+	padding: 60px 0 30px 0px;
+}
+
+div.socials a{
+	color: #a6a6a6;
+	margin-left: 50px;
+	text-decoration: none;
+}
+
+h3.socialSubHeader {
+	font-size: 30px;
+}
+
+p.socialSubHeader{
+	margin-top: 15px;
+	margin-bottom: 25px;
+	color: #848484;
+	font-size: 20px;
+}
+
+div.sociaIconsContainer a{
+	font-size: 23px;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background: #565656;
+	padding-top: 5px;
+	border-radius: 50%;
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+div.sociaIconsContainer a:hover{
+	color: rgb(51,51,255);
+	background: rgb(255,255,255,0.5);
+	transition: 0.35s all;
+}
+
+/* Website Links Styles*/
+div.footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+div.footer a{
+	color: #a6a6a6;
+	margin-left: 50px;
+	text-decoration: none;
+}
+
+div.footer a:hoover{
+	color: #3333ff;
+	font-weight: bold;
+	transition: 0.35s all;
+}
+
+/*AddButton Page*/
+div.addButtonBannerHeader{
+	background: rgb(51, 51, 51, 0.7);
+	border-radius: 20%;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+div.addButtonBannerHeader h2{
+	font-size: 25px;
+	color: #4db8ff;
+	margin-bottom: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-align: center;
+}
+
+div.formContainer{
+	padding-bottom: 5px;
+	margin-left: 150px;
+}
+
+div.formContainer h3{
+	text-align: center;
+	padding-right: 155px;
+	font-size: 20px;
+	color: #4db8ff;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#test3 {
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	color: #4db8ff;
+	margin-bottom: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+div.alignedBoxes p{
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	color: #4db8ff;
+	margin-bottom: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+div.addAlignedBoxes p{
+	margin-top: -10px;
+	font-size: 15px;
+	text-decoration: none;
+	display: inline-block;
+	color: #4db8ff;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+div.searchAlignedBoxes p{
+	font-size: 15px;
+	margin-bottom: -10px;
+	text-decoration: none;
+	display: inline-block;
+	color: #4db8ff;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#titleBoxID2{
+	padding-right: 43px;
+}
+
+#titleBoxID3{
+	padding-right: 60px;
+	margin-bottom: -10px;
+}
+
+#titleBoxID4{
+	margin-bottom: -10px;
+}
+
+#titleBoxID5{
+	padding-right: 43px;
+	margin-top: -10px;
+}
+
+#titleBoxID6{
+	padding-right: 20px;
+	margin-top: -10px;
+}
+
+#addSubmitID{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+/*Add Hover to all Buttons*/
+#addSubmitID:hover{
+	color: white;
+	background: black;
+	transition: 0.1s all;
+}
+
+#updateID:hover{
+	color: white;
+	background: black;
+	transition: 0.1s all;
+}
+
+#addSubmitID{
+	margin-right: 75px;
+}
+
+#addSubmitID:hover{
+	color: white;
+	background: black;
+	transition: 0.1s all;
+}
+
+div.lineButtonsAddPage{
+	display: inline-block;
+}
+
+#addResetID:hover{
+	color: white;
+	background: black;
+	transition: 0.1s all;
+}
+
+div.textBoxes{
+	margin-bottom: 100px;
+}
+
+div.uniqueID{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+
+#uniqueIDBox{
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+div.addTitle{
+	padding-top: 20px;
+}
+
+div.addButtons{
+	display: inline-block;
+}
+
+div.uniqueIDAssign{
+	padding-bottom: 150px;
+}
+
+#idAssigned{
+	margin-top: 20px;
+}
+
+/*Dashboard Style*/
+/**/
+#dashboardMainContainer{
+	display: flex;
+	flex-direction: row;
+}
+
+div.dashboard_sidebar{
+	width: 20%;
+	background: #323232;
+}
+
+div.dashboard_content_container{
+	width: 70%;
+}
+
+h3.dashboard_logo{
+	color: #3333ff;
+	font-size: 80px;
+	text-align: center;
+}
+
+div.dashboard_sidebar_user img{
+	width: 100px;
+	display: inline-block;
+}
+
+/*Error Message DB Connection*/
+#errorMessage{
+	color:red;
+	text-align: center;
+	display: inline;
+}
+
+#submissionAlert{
+	color: #008000;
+	text-align: center;
+	display: inline;
+}
+
+
+/* Submission message when inserting record */
+#submissionAlert2{
+	/*font-size: 100px;*/
+	/*color: #0ade6674;
+	margin-bottom: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-align: center;
+	display: inline;*/
+	color:green;
+	text-align: center;
+	display: inline;
+}
+
+/* Search Box */
+#show_up{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ddd;
+	display: none;
+}
+
+#show_up{
+	border-bottom: 1px solid #ddd;
+	display: block;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
